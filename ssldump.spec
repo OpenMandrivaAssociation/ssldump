@@ -1,7 +1,7 @@
 %define name	ssldump
 %define version 0.9
 %define realversion 0.9b3
-%define release 0.beta3.4mdk
+%define release %mkrel 0.beta3.4
 
 
 Name:		%{name}
