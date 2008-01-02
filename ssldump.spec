@@ -19,6 +19,7 @@ Group:		Monitoring
 Requires:	openssl
 
 BuildRequires:	openssl-devel, libpcap-devel
+BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 
 %description
