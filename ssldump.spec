@@ -1,7 +1,7 @@
 %define name	ssldump
 %define version 0.9
 %define realversion 0.9b3
-%define release %mkrel 0.beta3.4
+%define release %mkrel 0.beta3.5
 
 
 Name:		%{name}
@@ -19,7 +19,7 @@ Group:		Monitoring
 Requires:	openssl
 
 BuildRequires:	openssl-devel, libpcap-devel
-BuildRoot:	%{_tmppath}/%{name}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
 
 %description
