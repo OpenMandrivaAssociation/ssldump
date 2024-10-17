@@ -8,7 +8,7 @@ Name:		%{name}
 Summary:	SSLv3/TLS network protocol analyzer
 Version:	%{version}
 Release:	%{release}
-URL:		http://www.rtfm.com/ssldump/
+URL:		https://www.rtfm.com/ssldump/
 Source0:	%{name}-%{realversion}.tar.bz2
 Patch0:		ssldump_wrong_includes.patch.bz2
 Patch1:		ssldump-openssl.patch.bz2
